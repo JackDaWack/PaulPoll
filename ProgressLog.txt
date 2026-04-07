@@ -1,3 +1,6 @@
 4/7/2026
 -Created and cloned repository.
 -Added readme file.
+-Added Frontend and Backend directories.
+-Added poll.php
+-Implemented poll ID generation function in poll.php
