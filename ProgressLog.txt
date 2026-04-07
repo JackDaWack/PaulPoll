@@ -4,3 +4,4 @@
 -Added Frontend and Backend directories.
 -Added poll.php
 -Implemented poll ID generation function in poll.php
+-Added and Implemented create_poll.html
