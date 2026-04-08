@@ -1,3 +1,8 @@
+4/8/2026
+-Implemented poll creation handling in poll.php.
+-Added poll.js file to script for html files.
+-Implemented poll creation handling code in poll.js.
+
 4/7/2026
 -Created and cloned repository.
 -Added readme file.
