@@ -21,4 +21,15 @@ if ($_GET['action'] === 'create_poll' && $_SERVER['REQUEST_METHOD'] === 'POST') 
     exit;
 }
 
+if ($_GET['action'] === 'vote' && $_SERVER['REQUEST_METHOD'] === 'POST') {
+    $poll_id = $_POST['poll_id'];
+    $option_id = $_POST['option_id'];
+
+    $stmt = $pdo->prepare("UPDATE poll_options SET votes = votes + 1 WHERE id = ? AND poll_id = ?");
+    $stmt->execute([$option_id, $poll_id]);
+
+    echo json_encode(["status" => "success"]);
+    exit;
+}
+
 ?>

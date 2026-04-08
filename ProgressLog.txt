@@ -2,6 +2,10 @@
 -Implemented poll creation handling in poll.php.
 -Added poll.js file to script for html files.
 -Implemented poll creation handling code in poll.js.
+-Implemented vote handling in poll.php.
+-Added vote.html
+-Implemented vote.html
+-Implemented vote.html functionalities in poll.js
 
 4/7/2026
 -Created and cloned repository.

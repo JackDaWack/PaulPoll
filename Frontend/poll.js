@@ -32,4 +32,12 @@
                     pollLink.textContent = 'Error creating poll. Please try again.';
                 });
             });
-        });
+
+                const voteButtons = document.querySelectorAll('.vote-button');
+                voteButtons.forEach(button => {
+                    button.addEventListener('click', function() {
+                        const pollId = this.dataset.pollId;
+                        const optionId = this.dataset.optionId;
+                    });
+                });
+            });
